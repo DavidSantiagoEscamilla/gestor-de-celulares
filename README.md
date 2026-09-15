@@ -43,6 +43,8 @@ descamillac@unicartagena.edu.co
 - TinyDB compartido con el espacio `GestorDeCelulares`.
 - Acelerómetro y sensor de ubicación añadidos a `ScreenSensores`.
 - Registro funcional: correo como clave y contraseña como valor en TinyDB, con confirmación visual.
+- Autenticación local funcional: el correo consulta la contraseña guardada en TinyDB y la compara con la ingresada antes de abrir `ScreenMenu`.
+- Navegación corregida: `Registrarse` abre `ScreenRegistro` y `Recuperar contraseña` abre `ScreenRecuperar`.
 - CRUD inicial de celulares conectado a TinyDB: guardar/actualizar usa la etiqueta `celular_modelo` y eliminar ejecuta `Clear Tag` con confirmación visual.
 - Recuperación conectada: el correo ingresado genera una respuesta visual mediante Notifier.
-- Pendiente: completar lectura parametrizada del listado, autenticación, reportes parametrizados y pruebas finales.
+- Pendiente: completar lectura parametrizada del listado, reportes parametrizados, sensores visibles y pruebas finales.
