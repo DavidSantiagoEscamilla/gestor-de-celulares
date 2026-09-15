@@ -38,7 +38,9 @@ descamillac@unicartagena.edu.co
 ## Estado de construcción
 
 - Interfaz y navegación base configuradas en Kodular.
+- Navegación entre inicio, registro, recuperación, menú, administración, listado, reportes y sensores conectada.
 - Pantallas de formulario, listado, reportes, recuperación y sensores creadas.
 - TinyDB compartido con el espacio `GestorDeCelulares`.
-- Primer flujo de guardado y confirmación implementado en Bloques.
+- Acelerómetro y sensor de ubicación añadidos a `ScreenSensores`.
+- Flujo inicial de guardado de modelo y confirmación implementado en Bloques.
 - Pendiente: completar eventos del CRUD, autenticación, reportes parametrizados y pruebas finales.
