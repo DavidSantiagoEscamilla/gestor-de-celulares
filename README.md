@@ -32,5 +32,13 @@ descamillac@unicartagena.edu.co
 
 ## Entrega
 
-- Repositorio: pendiente de publicación.
+- Repositorio: https://github.com/DavidSantiagoEscamilla/gestor-de-celulares
 - Video: pendiente de publicación.
+
+## Estado de construcción
+
+- Interfaz y navegación base configuradas en Kodular.
+- Pantallas de formulario, listado, reportes, recuperación y sensores creadas.
+- TinyDB compartido con el espacio `GestorDeCelulares`.
+- Primer flujo de guardado y confirmación implementado en Bloques.
+- Pendiente: completar eventos del CRUD, autenticación, reportes parametrizados y pruebas finales.
