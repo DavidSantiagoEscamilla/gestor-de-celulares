@@ -42,5 +42,6 @@ descamillac@unicartagena.edu.co
 - Pantallas de formulario, listado, reportes, recuperación y sensores creadas.
 - TinyDB compartido con el espacio `GestorDeCelulares`.
 - Acelerómetro y sensor de ubicación añadidos a `ScreenSensores`.
-- Flujo inicial de guardado de modelo y confirmación implementado en Bloques.
+- Registro funcional: correo como clave y contraseña como valor en TinyDB, con confirmación visual.
+- Guardado funcional del modelo de celular con confirmación visual.
 - Pendiente: completar eventos del CRUD, autenticación, reportes parametrizados y pruebas finales.
