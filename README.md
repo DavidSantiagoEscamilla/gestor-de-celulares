@@ -45,6 +45,8 @@ descamillac@unicartagena.edu.co
 - Registro funcional: correo como clave y contraseña como valor en TinyDB, con confirmación visual.
 - Autenticación local funcional: el correo consulta la contraseña guardada en TinyDB y la compara con la ingresada antes de abrir `ScreenMenu`.
 - Navegación corregida: `Registrarse` abre `ScreenRegistro` y `Recuperar contraseña` abre `ScreenRecuperar`.
+- Retornos visibles añadidos: los módulos principales regresan a `ScreenMenu`, mientras registro y recuperación regresan a `Screen1`.
+- Validación estática de navegación realizada en Kodular: rutas revisadas en las ocho pantallas y `0` errores de bloques; los avisos restantes son advertencias del diseñador.
 - CRUD inicial de celulares conectado a TinyDB: guardar/actualizar usa la etiqueta `celular_modelo` y eliminar ejecuta `Clear Tag` con confirmación visual.
 - Recuperación funcional con TinyDB: valida el correo vacío y consulta la contraseña usando el correo como etiqueta; si no existe, devuelve el valor predeterminado vacío.
-- Pendiente: completar lectura parametrizada del listado, reportes parametrizados, sensores visibles y pruebas finales.
+- Pendiente: completar lectura parametrizada del listado, reportes parametrizados, sensores visibles y ejecutar la prueba de recorrido en Kodular Companion o en un dispositivo.
