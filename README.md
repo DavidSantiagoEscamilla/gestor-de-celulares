@@ -25,14 +25,16 @@ descamillac@unicartagena.edu.co
 
 ## Ejecución
 
-1. Importar el archivo `.aia` en Kodular Creator.
-2. Abrir el proyecto `Gestor de Celulares`.
-3. Probarlo mediante Kodular Companion o generar el APK.
-4. Crear un usuario y registrar celulares para verificar el CRUD y los reportes.
+1. En Kodular Creator, usar `Project > Export selected project (.aia)` para descargar el archivo fuente.
+2. Importar ese `.aia` en otra cuenta o abrir directamente el proyecto `Gestor de Celulares`.
+3. Probarlo mediante Kodular Companion o un emulador Android.
+4. Crear un usuario y registrar celulares para verificar el CRUD, el listado y el reporte.
 
 ## Entrega
 
 - Repositorio: https://github.com/DavidSantiagoEscamilla/gestor-de-celulares
+- Proyecto Kodular: https://creator.kodular.io/#310887870258310564
+- Archivo `.aia`: pendiente de confirmar en la carpeta de descargas después de exportarlo desde Kodular.
 - Video: pendiente de publicación.
 
 ## Estado de construcción
