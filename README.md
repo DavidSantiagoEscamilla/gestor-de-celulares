@@ -47,6 +47,10 @@ descamillac@unicartagena.edu.co
 - Navegación corregida: `Registrarse` abre `ScreenRegistro` y `Recuperar contraseña` abre `ScreenRecuperar`.
 - Retornos visibles añadidos: los módulos principales regresan a `ScreenMenu`, mientras registro y recuperación regresan a `Screen1`.
 - Validación estática de navegación realizada en Kodular: rutas revisadas en las ocho pantallas y `0` errores de bloques; los avisos restantes son advertencias del diseñador.
-- CRUD inicial de celulares conectado a TinyDB: guardar/actualizar usa la etiqueta `celular_modelo` y eliminar ejecuta `Clear Tag` con confirmación visual.
+- CRUD de celulares conectado a TinyDB: guardar/actualizar conserva modelo, marca, almacenamiento y precio en una lista bajo la etiqueta `celular_modelo`; eliminar ejecuta `Clear Tag` con confirmación visual.
 - Recuperación funcional con TinyDB: valida el correo vacío y consulta la contraseña usando el correo como etiqueta; si no existe, devuelve el valor predeterminado vacío.
-- Pendiente: completar lectura parametrizada del listado, reportes parametrizados, sensores visibles y ejecutar la prueba de recorrido en Kodular Companion o en un dispositivo.
+- Validación de datos reforzada: almacenamiento usa entrada numérica entera y precio usa entrada decimal; registro, login y recuperación muestran validaciones de campos vacíos.
+- Listado/historial conectado: `ScreenListado` carga automáticamente el registro persistido desde TinyDB al inicializarse.
+- Reporte conectado: `ScreenReportes` carga las entradas almacenadas en TinyDB dentro de un `List View`.
+- Sensores conectados: acelerómetro y ubicación tienen eventos que actualizan visualmente la pantalla `ScreenSensores`.
+- Pendiente de evidencia: ejecutar el recorrido completo en Kodular Companion o emulador Android, capturar las pruebas y publicar el video; no se marca como ejecutado porque actualmente no hay un dispositivo Android disponible.
