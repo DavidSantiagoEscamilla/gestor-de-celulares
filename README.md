@@ -63,4 +63,4 @@ El video presenta el funcionamiento de la aplicación, la navegación entre pant
 
 ## Verificación final pendiente
 
-Los archivos fuente y la APK ya están incorporados al repositorio local. Después de subir los cambios a GitHub, se comprobará que el repositorio sea público, que ambos archivos se puedan descargar y que la APK abra correctamente.
+Los archivos `.aia` y APK ya están subidos al repositorio.
